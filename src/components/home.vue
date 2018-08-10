@@ -1,44 +1,9 @@
 <template>
-  <div>
-    <mt-header fixed title="长高-德远能源油机管理系统"></mt-header>
-
-    <mt-button class="gms-home-button">
-      <img slot="icon" src="../assets/images/icon-test.png">
-    </mt-button>
-
-    <mt-button class="gms-home-button">
-      <img slot="icon" src="../assets/images/icon-test.png">
-    </mt-button>
-    <mt-button class="gms-home-button">
-      <img slot="icon" src="../assets/images/icon-test.png">
-    </mt-button>    <mt-button class="gms-home-button">
-    <img slot="icon" src="../assets/images/icon-test.png">
-  </mt-button>    <mt-button class="gms-home-button">
-    <img slot="icon" src="../assets/images/icon-test.png">
-  </mt-button>    <mt-button class="gms-home-button">
-    <img slot="icon" src="../assets/images/icon-test.png">
-  </mt-button>    <mt-button class="gms-home-button">
-    <img slot="icon" src="../assets/images/icon-test.png">
-  </mt-button>
-
-    <mt-tabbar v-model="selected">
-      <mt-tab-item id="外卖">
-        <!--<img slot="icon" src="../assets/100x100.png">-->
-        操作
-      </mt-tab-item>
-      <mt-tab-item id="订单">
-        <!--<img slot="icon" src="../assets/100x100.png">-->
-        状态
-      </mt-tab-item>
-      <mt-tab-item id="发现">
-        <img slot="icon" src="../assets/images/icon-test.png">
-        报表
-      </mt-tab-item>
-      <mt-tab-item id="我的">
-        <i class="el-icon-share"></i>
-      </mt-tab-item>
-    </mt-tabbar>
-  </div>
+  <grid col="4">wwww
+    <grid-item label="Grid" v-for="i in 9">
+      <img slot="icon" src="../assets/grid_icon.png">
+    </grid-item>
+  </grid>
 </template>
 
 <script>
